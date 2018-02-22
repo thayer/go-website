@@ -6,5 +6,5 @@ function randomNumber(len) {
         randomNumber = Math.floor(Math.random() * 10);
         n += randomNumber.toString();
     }
-    return document.getElementById("element_12").value = n;
+    return document.getElementById("element_13").value = n;
 }
