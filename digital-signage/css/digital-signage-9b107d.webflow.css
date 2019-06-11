@@ -19,11 +19,9 @@ img {
   background-position: 0px 0px, 50% 0%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
-  font-family: 'Open Sans', sans-serif;
   color: #fff;
   font-size: 20px;
   line-height: 28px;
-  font-weight: 300;
 }
 
 .columns {
@@ -139,3 +137,4 @@ img {
 .html-embed {
   display: inline-block;
 }
+
