@@ -38,6 +38,7 @@ img {
   color: #267aba;
   font-size: 50px;
   line-height: 50px;
+  text-transform: uppercase;
 }
 
 .events {
@@ -45,6 +46,7 @@ img {
   color: #87ae34;
   font-size: 50px;
   line-height: 50px;
+  text-transform: uppercase;
 }
 
 .div-block {
