@@ -184,34 +184,17 @@ img {
   align-items: stretch;
 }
 
-.text-span {
-  color: #267aba;
-  text-transform: none;
-}
-
-.text-span-2 {
-  display: inline;
-  color: #ffa00f;
-  text-transform: none;
-}
-
 .embed {
   color: transparent;
 }
 
-.heading {
+.twit {
   display: inline;
-}
-
-.twitter {
   color: #267aba;
 }
 
-.heading-2 {
-  color: #ffa00f;
-}
-
-.instagram {
+.insta {
+  display: inline;
   color: #ffa00f;
 }
 
