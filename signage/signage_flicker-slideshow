@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Flickr Slideshow</title>
+        <style>
+            body{
+                margin: 0;
+                padding-top: 0;
+                background-color: black;
+            }
+            #galleria{
+                height: 100vh;
+                width: 100vw;
+            }
+            .galleria-theme-classic .galleria-info {
+                width: 100%;
+                text-align: center;
+                top: auto;
+                left: 0px;
+                bottom: 0px;
+                height: 50px;
+            }
+            .galleria-theme-classic .galleria-info-text {
+                background-color: #000;
+                padding: 0;
+                display: none;
+            }
+            .galleria-theme-classic .galleria-info-title {
+                font: 26px sans-serif;
+                margin: 0;
+                color: #fff;
+                margin-bottom: 0px;
+            }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.6/galleria.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.6/plugins/flickr/galleria.flickr.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.6/themes/classic/galleria.classic.min.js"></script>
+    </head>
+    <body>
+        <div id="galleria"></div>
+        <script>
+            $(function() {
+                Galleria.run('#galleria', {
+                    _toggleInfo: false,
+                    idleMode: false,
+                    pauseOnInteraction: false,
+                    showCounter: false,
+                    showImagenav: false,
+                    thumbnails: false,
+                    autoplay: 7000,
+                    transition: 'fade',
+                    imageCrop: false,
+                    flickr: 'set:72157604473156675',
+                });
+            });
+        </script>
+    </body>
+</html>
