@@ -14,7 +14,7 @@ img {
 .body {
   overflow: hidden;
   background-color: #172023;
-  background-image: url('https://engineering.dartmouth.edu/goto/digital-signage/images/background.png');
+  background-image: url('https://engineering.dartmouth.edu/goto/signage/images/background.png');
   background-position: 50% 0%;
   background-size: cover;
   background-repeat: no-repeat;
